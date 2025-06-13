@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Разрешаем доступ к api_debug.php
+    RewriteRule ^api_debug$ api_debug.php [L]
+    
+    # Запрещаем прямой доступ к логам
+    RewriteRule ^api_logs/ - [F,L]
+</IfModule>

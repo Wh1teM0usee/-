@@ -1,0 +1,271 @@
+REQUEST:
+{
+    "timestamp": "2025-04-26 19:50:00",
+    "method": "GET",
+    "uri": "\/1337\/api.php?action=check_auth",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "95.26.55.19",
+        "Connection": "close",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36",
+        "Accept": "*\/*",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/index.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Cookie": "PHPSESSID=84cb55343098a9f561215c4d72b9a0d5"
+    },
+    "session": {
+        "user_id": 1,
+        "username": "zz"
+    },
+    "input": ""
+}
+RESPONSE:
+{
+    "success": true,
+    "message": "Authenticated",
+    "data": {
+        "authenticated": true,
+        "username": "zz"
+    },
+    "debug": {
+        "session_id": "84cb55343098a9f561215c4d72b9a0d5",
+        "timestamp": "2025-04-26 19:50:00",
+        "memory_usage": "2048 KB"
+    }
+}
+
+REQUEST:
+{
+    "timestamp": "2025-04-26 19:50:01",
+    "method": "POST",
+    "uri": "\/1337\/api.php?action=logout",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "95.26.55.19",
+        "Connection": "close",
+        "Content-Length": "0",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36",
+        "Accept": "*\/*",
+        "Origin": "http:\/\/p95364dp.beget.tech",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/index.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Cookie": "PHPSESSID=84cb55343098a9f561215c4d72b9a0d5"
+    },
+    "session": {
+        "user_id": 1,
+        "username": "zz"
+    },
+    "input": ""
+}
+RESPONSE:
+{
+    "success": true,
+    "message": "Logged out successfully",
+    "data": {
+        "session_status": "destroyed"
+    },
+    "debug": {
+        "session_id": "",
+        "timestamp": "2025-04-26 19:50:01",
+        "memory_usage": "2048 KB"
+    }
+}
+
+REQUEST:
+{
+    "timestamp": "2025-04-26 19:50:02",
+    "method": "POST",
+    "uri": "\/1337\/api.php?action=logout",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "95.26.55.19",
+        "Connection": "close",
+        "Content-Length": "0",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36",
+        "Accept": "*\/*",
+        "Origin": "http:\/\/p95364dp.beget.tech",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/index.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+    },
+    "session": [],
+    "input": ""
+}
+RESPONSE:
+{
+    "success": true,
+    "message": "Logged out successfully",
+    "data": {
+        "session_status": "destroyed"
+    },
+    "debug": {
+        "session_id": "",
+        "timestamp": "2025-04-26 19:50:02",
+        "memory_usage": "2048 KB"
+    }
+}
+
+REQUEST:
+{
+    "timestamp": "2025-04-26 19:50:03",
+    "method": "GET",
+    "uri": "\/1337\/api.php?action=check_auth",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "95.26.55.19",
+        "Connection": "close",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36",
+        "Accept": "*\/*",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/index.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+    },
+    "session": [],
+    "input": ""
+}
+RESPONSE:
+{
+    "success": true,
+    "message": "Not authenticated",
+    "data": {
+        "authenticated": false
+    },
+    "debug": {
+        "session_id": "f4ad1c481d6a6c5a813e6adb1896edae",
+        "timestamp": "2025-04-26 19:50:03",
+        "memory_usage": "2048 KB"
+    }
+}
+
+REQUEST:
+{
+    "timestamp": "2025-04-26 19:50:07",
+    "method": "POST",
+    "uri": "\/1337\/api.php?action=login",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "95.26.55.19",
+        "Connection": "close",
+        "Content-Length": "33",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36",
+        "Content-Type": "application\/json",
+        "Accept": "*\/*",
+        "Origin": "http:\/\/p95364dp.beget.tech",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/login.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Cookie": "PHPSESSID=f4ad1c481d6a6c5a813e6adb1896edae"
+    },
+    "session": [],
+    "input": "{\"username\":\"zz\",\"password\":\"zz\"}"
+}
+RESPONSE:
+{
+    "success": true,
+    "message": "Login successful",
+    "data": {
+        "user_id": 1,
+        "username": "zz"
+    },
+    "debug": {
+        "session_id": "f4ad1c481d6a6c5a813e6adb1896edae",
+        "timestamp": "2025-04-26 19:50:08",
+        "memory_usage": "2048 KB"
+    }
+}
+
+REQUEST:
+{
+    "timestamp": "2025-04-26 19:50:08",
+    "method": "POST",
+    "uri": "\/1337\/api.php?action=login",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "95.26.55.19",
+        "Connection": "close",
+        "Content-Length": "33",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36",
+        "Content-Type": "application\/json",
+        "Accept": "*\/*",
+        "Origin": "http:\/\/p95364dp.beget.tech",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/login.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Cookie": "PHPSESSID=f4ad1c481d6a6c5a813e6adb1896edae"
+    },
+    "session": {
+        "user_id": 1,
+        "username": "zz"
+    },
+    "input": "{\"username\":\"zz\",\"password\":\"zz\"}"
+}
+RESPONSE:
+{
+    "success": true,
+    "message": "Login successful",
+    "data": {
+        "user_id": 1,
+        "username": "zz"
+    },
+    "debug": {
+        "session_id": "f4ad1c481d6a6c5a813e6adb1896edae",
+        "timestamp": "2025-04-26 19:50:08",
+        "memory_usage": "2048 KB"
+    }
+}
+
+REQUEST:
+{
+    "timestamp": "2025-04-26 19:50:13",
+    "method": "GET",
+    "uri": "\/1337\/api.php?action=check_auth",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "95.26.55.19",
+        "Connection": "close",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36",
+        "Accept": "*\/*",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/index.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Cookie": "PHPSESSID=f4ad1c481d6a6c5a813e6adb1896edae"
+    },
+    "session": {
+        "user_id": 1,
+        "username": "zz"
+    },
+    "input": ""
+}
+RESPONSE:
+{
+    "success": true,
+    "message": "Authenticated",
+    "data": {
+        "authenticated": true,
+        "username": "zz"
+    },
+    "debug": {
+        "session_id": "f4ad1c481d6a6c5a813e6adb1896edae",
+        "timestamp": "2025-04-26 19:50:13",
+        "memory_usage": "2048 KB"
+    }
+}
+

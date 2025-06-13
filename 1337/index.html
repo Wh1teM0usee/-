@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏨</text></svg>">
+    <link rel="stylesheet" href="/1337/index.css">
+    <link rel="stylesheet" href="/1337/menu.css">
+    <!-- Новое подключение Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Блок авторизации -->
+    <div id="auth-status">
+        <span id="auth-message">Проверка авторизации...</span>
+        <button id="logout-btn">Выйти</button>
+        <a href="login.html" id="login-btn">Войти</a>
+    </div>
+    
+    <!-- Блок меню -->
+    <div id="main-menu-container">
+        <button id="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i> Меню
+        </button>
+        <nav id="dropdown-menu">
+            <ul>
+                <li><a href="/1337/profile.html"><i class="fas fa-user"></i> Профиль</a></li>
+                <li><a href="/1337/index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="/1337/booking.html"><i class="fas fa-bed"></i> Номера</a></li>
+                <li><a href="/1337/services.html"><i class="fas fa-spa"></i> Услуги</a></li>
+                <li><a href="/1337/group-bookings.html"><i class="fas fa-users"></i> Групповые заезды</a></li>
+                <li><a href="/1337/events.html"><i class="fas fa-calendar-alt"></i> Мероприятия</a></li>
+                <li><a href="/1337/blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+                <li><a href="/1337/about.html"><i class="fas fa-info-circle"></i> О нас</a></li>
+                <li><a href="/1337/contacts.html"><i class="fas fa-map-marker-alt"></i> Контакты</a></li>
+                <li><a href="/1337/reviews.html"><i class="fas fa-comment"></i> Отзывы</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Шапка с формой бронирования -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Уютный лофт-отель в центре Костромы</h1>
+            <p>Премиум номера с панорамными видами</p>
+            
+            <form class="booking-form">
+    <div>
+        <label for="check-in">Заезд</label>
+        <input type="date" id="check-in" value="2025-02-08">
+    </div>
+    <div>
+        <label for="check-out">Выезд</label>
+        <input type="date" id="check-out" value="2025-02-09">
+    </div>
+    <div>
+        <label for="guests">Гости</label>
+        <select id="guests">
+            <option value="1">1 гость</option>
+            <option value="2">2 гостя</option>
+            <option value="3">3 гостя</option>
+            <option value="4">4 гостя</option>
+            <option value="5">5 гостей</option>
+        </select>
+    </div>
+    <a href="booking.html" class="btn" id="find-room-btn">Найти номер</a>
+</form>
+        </div>
+    </section>
+
+    <!-- Ресторан -->
+    <section class="restaurant-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наш ресторан</h2>
+            </div>
+            
+            <div class="restaurant-slider">
+                <div><img src="/1337/images/rest1.png" alt="Интерьер ресторана"></div>
+                <div><img src="/1337/images/rest2.png" alt="Летняя терраса"></div>
+                <div><img src="/1337/images/rest3.png" alt="Банкетный зал"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Новости -->
+    <section class="news-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Новости и события</h2>
+            </div>
+            
+            <div class="news-item">
+                <img src="/1337/images/news1.png" alt="Новое меню">
+                <div class="news-content">
+                    <h3>22.07.2025</h3>
+                    <p>Новое осеннее меню в ресторане Silk Lounge. Шеф-повар Максим Щербаков создал настоящее гастрономическое приключение, вдохновленное богатством осенних вкусов.</p>
+                    <a href="/1337/blog.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Скидка -->
+<section class="discount-section">
+    <div class="container">
+        <h2>Дарим скидку 5% на любой номер</h2>
+        <p>Оставьте ваши контакты, и мы перезвоним в ближайшее время и забронируем номер!</p>
+        
+        <form class="discount-form">
+            <input type="text" placeholder="Ваше имя">
+            <input type="email" placeholder="Ваш email">
+            <button type="submit" class="btn">Получить скидку</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Номера -->
+    <section class="rooms-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши номера</h2>
+            </div>
+            
+            <div class="rooms-container">
+                <div class="room-card">
+                    <img src="images/room1.jpg" alt="Стандартный номер">
+                    <div class="room-content">
+                        <h3>Стандартный номер</h3>
+                        <p>Уютный номер с одной кроватью и всеми удобствами. Площадь 25 м², вид во внутренний двор.</p>
+                        <a href="/1337/booking.html" class="btn">Забронировать</a>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <img src="images/room2.jpg" alt="Люкс">
+                    <div class="room-content">
+                        <h3>Люкс</h3>
+                        <p>Просторный номер с двумя кроватями и видом на город. Площадь 35 м², гостиная зона.</p>
+                        <a href="/1337/booking.html" class="btn">Забронировать</a>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <img src="images/room3.jpg" alt="Президентский люкс">
+                    <div class="room-content">
+                        <h3>Президентский люкс</h3>
+                        <p>Роскошный номер с отдельной гостиной зоной и панорамными окнами. Площадь 60 м².</p>
+                        <a href="/1337/booking.html" class="btn">Забронировать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="rating">4.9 ★★★★★</div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-author">А</div>
+                    <div class="review-text">Гостил в августе, жили с семьей. Свободно, комфортно! Мы любим много гулять, расположение отличное. ТК и ЖД вокзалы рядом. Обязательно вернемся. Рекомендую всем!</div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-author">H</div>
+                    <div class="review-text">Выбираем этот отель по соотношению цена-качество-расположение. Район отличный - до центра пешком легко и приятно. Рядом жд вокзал. Магазины отличные рядом есть, интерьер в отеле уютный.</div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-author">A</div>
+                    <div class="review-text">Жили с семьей три дня, понравилось. Номер хороший, все необходимое есть. Расположение отличное: до центра 5 минут. Рядом жд вокзал. Гулять было комфортно.</div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/1337/reviews.html" class="btn">Все отзывы</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Hotel NN</h4>
+                    <p>г. Кострома, ул. Пушкина, 3</p>
+                    <p>+7 (4942) 123-456</p>
+                    <p>info@hotelnn.ru</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Подписка на рассылку</h4>
+                    <p>Узнавайте первыми о специальных предложениях</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email">
+                        <button type="submit" class="btn">></button>
+                    </form>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="/1337/html/profile.html">Профиль</a>
+                        <a href="/1337/index.html">Главная</a>
+                        <a href="/1337/booking.html">Номера</a>
+                        <a href="/1337/services.html">Услуги</a>
+                        <a href="/1337/group-bookings.html">Групповые заезды</a>
+                        <a href="/1337/events.html">Мероприятия</a>
+                        <a href="/1337/blog.html">Блог</a>
+                        <a href="/1337/about.htm">О нас</a>
+                        <a href="/1337/contacts.html">Контакты</a>
+                        <a href="/1337/reviews.html">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Основной скрипт -->
+    <script src="/1337/index.js"></script>
+    <script src="/1337/menu.js"></script>
+</body>
+</html>

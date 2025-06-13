@@ -1,0 +1,432 @@
+[13-Jun-2025 17:35:00 Europe/Moscow] 
+
+[2025-06-13 17:35:00] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:35:00 Europe/Moscow] 
+
+[2025-06-13 17:35:00] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:35:00 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:35:00 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:35:00 Europe/Moscow] Post: 
+[13-Jun-2025 17:35:00 Europe/Moscow] Post: 
+[13-Jun-2025 17:35:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:35:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:35:01 Europe/Moscow] 
+
+[2025-06-13 17:35:01] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:35:01 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:35:01 Europe/Moscow] Post: 
+[13-Jun-2025 17:35:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:35:01 Europe/Moscow] 
+
+[2025-06-13 17:35:01] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:35:01 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:35:01 Europe/Moscow] Post: 
+[13-Jun-2025 17:35:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:35:02 Europe/Moscow] 
+
+[2025-06-13 17:35:02] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:35:02 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:35:02 Europe/Moscow] Post: 
+[13-Jun-2025 17:35:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:35:02 Europe/Moscow] 
+
+[2025-06-13 17:35:02] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:35:02 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:35:02 Europe/Moscow] Post: 
+[13-Jun-2025 17:35:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:35:13 Europe/Moscow] 
+
+[2025-06-13 17:35:13] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:35:13 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:35:13 Europe/Moscow] Post: 
+[13-Jun-2025 17:35:13 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:35:13 Europe/Moscow] 
+
+[2025-06-13 17:35:13] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:35:13 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:35:13 Europe/Moscow] Post: 
+[13-Jun-2025 17:35:13 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:00 Europe/Moscow] 
+
+[2025-06-13 17:36:00] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:00 Europe/Moscow] 
+
+[2025-06-13 17:36:00] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:00 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:00 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:00 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:00 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:01 Europe/Moscow] 
+
+[2025-06-13 17:36:01] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:01 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:01 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:01 Europe/Moscow] 
+
+[2025-06-13 17:36:01] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:01 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:01 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:02 Europe/Moscow] 
+
+[2025-06-13 17:36:02] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:02 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:02 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:02 Europe/Moscow] 
+
+[2025-06-13 17:36:02] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:02 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:02 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:45 Europe/Moscow] 
+
+[2025-06-13 17:36:45] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:45 Europe/Moscow] 
+
+[2025-06-13 17:36:45] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:45 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:45 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:45 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:45 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:45 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:45 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:46 Europe/Moscow] 
+
+[2025-06-13 17:36:46] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:46 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:46 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:46 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:36:46 Europe/Moscow] 
+
+[2025-06-13 17:36:46] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:36:46 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:36:46 Europe/Moscow] Post: 
+[13-Jun-2025 17:36:46 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:52 Europe/Moscow] 
+
+[2025-06-13 17:37:52] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:52 Europe/Moscow] 
+
+[2025-06-13 17:37:52] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:52 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:52 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:52 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:52 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:53 Europe/Moscow] 
+
+[2025-06-13 17:37:53] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:53 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:53 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:53 Europe/Moscow] 
+
+[2025-06-13 17:37:53] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:53 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:53 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:56 Europe/Moscow] 
+
+[2025-06-13 17:37:56] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:56 Europe/Moscow] 
+
+[2025-06-13 17:37:56] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:56 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:56 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:56 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:56 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:57 Europe/Moscow] 
+
+[2025-06-13 17:37:57] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:57 Europe/Moscow] 
+
+[2025-06-13 17:37:57] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:57 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:57 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:57 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:57 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:57 Europe/Moscow] 
+
+[2025-06-13 17:37:57] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:57 Europe/Moscow] 
+
+[2025-06-13 17:37:57] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:57 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:57 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:57 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:57 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:57 Europe/Moscow] 
+
+[2025-06-13 17:37:57] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:57 Europe/Moscow] 
+
+[2025-06-13 17:37:57] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:57 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:57 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:57 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:57 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:57 Europe/Moscow] 
+
+[2025-06-13 17:37:57] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:57 Europe/Moscow] 
+
+[2025-06-13 17:37:57] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:57 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:57 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:57 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:57 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:58 Europe/Moscow] 
+
+[2025-06-13 17:37:58] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:58 Europe/Moscow] 
+
+[2025-06-13 17:37:58] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:37:58 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:58 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:37:58 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:58 Europe/Moscow] Post: 
+[13-Jun-2025 17:37:58 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:37:58 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:43:52 Europe/Moscow] 
+
+[2025-06-13 17:43:52] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:43:52 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"194.58.173.57","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Cache-Control":"no-cache","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9","Cookie":"PHPSESSID=275a09113f5950c39500ce66e25d0d00"}
+[13-Jun-2025 17:43:52 Europe/Moscow] Post: 
+[13-Jun-2025 17:43:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:43:52 Europe/Moscow] 
+
+[2025-06-13 17:43:52] New Request: GET /1337/profile_api.php?action=check_auth
+[13-Jun-2025 17:43:52 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"194.58.173.57","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Cache-Control":"no-cache","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9","Cookie":"PHPSESSID=275a09113f5950c39500ce66e25d0d00"}
+[13-Jun-2025 17:43:52 Europe/Moscow] Post: 
+[13-Jun-2025 17:43:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:57:37 Europe/Moscow] 
+
+[2025-06-13 17:57:37] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 17:57:37 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:57:37 Europe/Moscow] Post: 
+[13-Jun-2025 17:57:37 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:59:00 Europe/Moscow] 
+
+[2025-06-13 17:59:00] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 17:59:00 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:59:00 Europe/Moscow] Post: 
+[13-Jun-2025 17:59:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:59:05 Europe/Moscow] 
+
+[2025-06-13 17:59:05] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 17:59:05 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:59:05 Europe/Moscow] Post: 
+[13-Jun-2025 17:59:05 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:59:07 Europe/Moscow] 
+
+[2025-06-13 17:59:07] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 17:59:07 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:59:07 Europe/Moscow] Post: 
+[13-Jun-2025 17:59:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:59:08 Europe/Moscow] 
+
+[2025-06-13 17:59:08] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 17:59:08 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:59:08 Europe/Moscow] Post: 
+[13-Jun-2025 17:59:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:59:08 Europe/Moscow] 
+
+[2025-06-13 17:59:08] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 17:59:08 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:59:08 Europe/Moscow] Post: 
+[13-Jun-2025 17:59:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:59:09 Europe/Moscow] 
+
+[2025-06-13 17:59:09] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 17:59:09 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:59:09 Europe/Moscow] Post: 
+[13-Jun-2025 17:59:09 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 17:59:09 Europe/Moscow] 
+
+[2025-06-13 17:59:09] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 17:59:09 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 17:59:09 Europe/Moscow] Post: 
+[13-Jun-2025 17:59:09 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 18:00:47 Europe/Moscow] 
+
+[2025-06-13 18:00:47] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 18:00:47 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 18:00:47 Europe/Moscow] Post: 
+[13-Jun-2025 18:00:47 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 18:01:07 Europe/Moscow] 
+
+[2025-06-13 18:01:07] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 18:01:07 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 18:01:07 Europe/Moscow] Post: 
+[13-Jun-2025 18:01:07 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 18:01:11 Europe/Moscow] 
+
+[2025-06-13 18:01:11] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 18:01:11 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","Pragma":"no-cache","Cache-Control":"no-cache","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 18:01:11 Europe/Moscow] Post: 
+[13-Jun-2025 18:01:11 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28
+[13-Jun-2025 18:01:14 Europe/Moscow] 
+
+[2025-06-13 18:01:14] New Request: GET /1337/profile_api.php?action=get_user_bookings
+[13-Jun-2025 18:01:14 Europe/Moscow] Headers: {"Host":"p95364dp.beget.tech","X-Server-Addr":"185.50.25.45","X-Forwarded-Proto":"http","X-Real-IP":"95.26.59.234","Connection":"close","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/137.0.0.0 Safari\/537.36","Accept":"*\/*","Referer":"http:\/\/p95364dp.beget.tech\/1337\/profile.html","Accept-Encoding":"gzip, deflate","Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7","Cookie":"PHPSESSID=b427bc5becd9baa49badb31c0249dc98"}
+[13-Jun-2025 18:01:14 Europe/Moscow] Post: 
+[13-Jun-2025 18:01:14 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/p/p95364dp/p95364dp.beget.tech/public_html/1337/../api_common.php' (include_path='.:/usr/share/php') in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/p/p95364dp/p95364dp.beget.tech/public_html/1337/profile_api.php on line 28

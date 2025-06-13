@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💆</text></svg>">
+    <link rel="stylesheet" href="/1337/index.css">
+    <link rel="stylesheet" href="/1337/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .services-section {
+            padding: 60px 0;
+        }
+        
+        .services-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .service-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        
+        .service-title {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .service-description {
+            color: var(--gray);
+            margin-bottom: 20px;
+        }
+        
+        .service-price {
+            font-weight: bold;
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+        
+        .loading {
+            text-align: center;
+            grid-column: 1 / -1;
+            padding: 50px;
+        }
+        
+        .loading-spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--accent);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        .error-message {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 30px;
+            background: #ffeeee;
+            border-radius: 10px;
+            color: #d32f2f;
+        }
+        
+        .no-services {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 50px;
+            background: var(--white);
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Блок авторизации -->
+    <div id="auth-status">
+        <span id="auth-message">Проверка авторизации...</span>
+        <button id="logout-btn">Выйти</button>
+        <a href="login.html" id="login-btn">Войти</a>
+    </div>
+    
+
+    <!-- Блок меню -->
+    <div id="main-menu-container">
+        <button id="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i> Меню
+        </button>
+        <nav id="dropdown-menu">
+            <ul>
+                <li><a href="/1337/profile.html"><i class="fas fa-user"></i> Профиль</a></li>
+                <li><a href="/1337/index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="/1337/booking.html"><i class="fas fa-bed"></i> Номера</a></li>
+                <li><a href="/1337/services.html"><i class="fas fa-spa"></i> Услуги</a></li>
+                <li><a href="/1337/group-bookings.html"><i class="fas fa-users"></i> Групповые заезды</a></li>
+                <li><a href="/1337/events.html"><i class="fas fa-calendar-alt"></i> Мероприятия</a></li>
+                <li><a href="/1337/blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+                <li><a href="/1337/about.html"><i class="fas fa-info-circle"></i> О нас</a></li>
+                <li><a href="/1337/contacts.html"><i class="fas fa-map-marker-alt"></i> Контакты</a></li>
+                <li><a href="/1337/reviews.html"><i class="fas fa-comment"></i> Отзывы</a></li>
+
+            </ul>
+        </nav>
+    </div>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Основной контент -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши услуги</h2>
+                <p>Мы предлагаем широкий спектр услуг для вашего комфорта</p>
+            </div>
+            
+            <div class="services-container" id="services-container">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Загрузка услуг...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Hotel NN</h4>
+                    <p>г. Кострома, ул. Пушкина, 3</p>
+                    <p>+7 (4942) 123-456</p>
+                    <p>info@hotelnn.ru</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Подписка на рассылку</h4>
+                    <p>Узнавайте первыми о специальных предложениях</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email">
+                        <button type="submit" class="btn">></button>
+                    </form>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="/1337/html/profile.html">Профиль</a>
+                        <a href="/1337/index.html">Главная</a>
+                        <a href="/1337/booking.html">Номера</a>
+                        <a href="/1337/services.html">Услуги</a>
+                        <a href="/1337/group-bookings.html">Групповые заезды</a>
+                        <a href="/1337/events.html">Мероприятия</a>
+                        <a href="/1337/blog.html">Блог</a>
+                        <a href="/1337/about.htm">О нас</a>
+                        <a href="/1337/contacts.html">Контакты</a>
+                        <a href="/1337/reviews.html">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="/1337/menu.js"></script>
+    <script src="/1337/index.js"></script>
+    <script src="/1337/services.js"></script>
+</body>
+
+
+</html>

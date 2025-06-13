@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Номера</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛏️</text></svg>">
+    <link rel="stylesheet" href="/1337/index.css">
+    <link rel="stylesheet" href="/1337/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+    .booked-room {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .booked-room::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1;
+    }
+    
+    .booked-room .room-content {
+        position: relative;
+        z-index: 2;
+    }
+    
+    .booked-label {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(211, 47, 47, 0.9);
+        color: white;
+        padding: 15px 30px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 1.5rem;
+        z-index: 3;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .rooms-section {
+        padding: 60px 0;
+    }
+    
+    .rooms-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+    
+    .room-card {
+        background: var(--white);
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+        position: relative;
+    }
+    
+    .room-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .room-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .room-content {
+        padding: 20px;
+    }
+    
+    .room-title {
+        font-size: 1.4rem;
+        color: var(--primary);
+        margin-bottom: 10px;
+    }
+    
+    .room-description {
+        color: var(--gray);
+        margin-bottom: 15px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    
+    .room-details {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    
+    .room-price {
+        font-weight: bold;
+        color: var(--accent);
+        font-size: 1.2rem;
+    }
+    
+    .room-capacity {
+        color: var(--gray);
+    }
+    
+    .room-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    /* Кнопка бронирования */
+    .book-btn {
+        background: #ff7f50; /* Зеленый */
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        flex: 1;
+        transition: all 0.3s ease;
+    }
+    
+    .book-btn:hover {
+        background: #ff6347; /* Темно-зеленый */
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(29, 209, 161, 0.2);
+    }
+    
+    .not-available {
+        color: #d32f2f;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+ /* Общий стиль для админских кнопок */
+.admin-btn {
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Стиль для кнопки редактирования */
+.admin-btn.edit {
+    background: #2196F3;  /* Яркий синий */
+}
+
+.admin-btn.edit:hover {
+    background: #0b7dda;  /* Темно-синий при наведении */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
+}
+
+/* Стиль для кнопки удаления */
+.admin-btn.delete {
+    background: #dc3545;  /* Красный */
+}
+
+.admin-btn.delete:hover {
+    background: #c82333;  /* Темно-красный при наведении */
+}
+    
+    /* Кнопка удаления */
+    .admin-btn.delete {
+        background: #dc3545; /* Красный */
+    }
+    
+    .admin-btn.delete:hover {
+        background: #c82333; /* Темно-красный */
+        transform: translateY(-2px);
+    }
+
+    /* Кнопка добавления номера */
+    .add-room-btn {
+        background: #28a745; /* зелёний */
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        display: inline-block;
+        transition: all 0.3s ease;
+        font-weight: bold;
+    }
+    
+    .add-room-btn:hover {
+        background: #218838; /* Темно-зелений */
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(46, 134, 222, 0.3);
+    }
+    
+    .loading {
+        text-align: center;
+        grid-column: 1 / -1;
+        padding: 50px;
+    }
+    
+    .loading-spinner {
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid var(--accent);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+    }
+    
+    /* Модальное окно бронирования */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 10px;
+        width: 90%;
+        max-width: 500px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    
+    .close-modal {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .close-modal:hover {
+        color: black;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    .form-group input, .form-group select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .submit-btn {
+        background: var(--accent);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+    
+    .submit-btn:hover {
+        background: var(--accent-dark);
+        transform: translateY(-2px);
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+</head>
+<body>
+    <!-- Блок авторизации -->
+    <div id="auth-status">
+        <span id="auth-message">Проверка авторизации...</span>
+        <button id="logout-btn">Выйти</button>
+        <a href="login.html" id="login-btn">Войти</a>
+    </div>
+    
+    <!-- Блок меню -->
+    <div id="main-menu-container">
+        <button id="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i> Меню
+        </button>
+        <nav id="dropdown-menu">
+            <ul>
+                <li><a href="/1337/profile.html"><i class="fas fa-user"></i> Профиль</a></li>
+                <li><a href="/1337/index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="/1337/booking.html"><i class="fas fa-bed"></i> Номера</a></li>
+                <li><a href="/1337/services.html"><i class="fas fa-spa"></i> Услуги</a></li>
+                <li><a href="/1337/group-bookings.html"><i class="fas fa-users"></i> Групповые заезды</a></li>
+                <li><a href="/1337/events.html"><i class="fas fa-calendar-alt"></i> Мероприятия</a></li>
+                <li><a href="/1337/blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+                <li><a href="/1337/about.html"><i class="fas fa-info-circle"></i> О нас</a></li>
+                <li><a href="/1337/contacts.html"><i class="fas fa-map-marker-alt"></i> Контакты</a></li>
+                <li><a href="/1337/reviews.html"><i class="fas fa-comment"></i> Отзывы</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Основной контент -->
+    <section class="rooms-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши номера</h2>
+                <p>Выберите идеальный номер для вашего пребывания</p>
+            </div>
+            
+            <div id="admin-panel" style="display: none;">
+                <button id="add-room-btn" class="add-room-btn">
+                    <i class="fas fa-plus"></i> Добавить номер
+                </button>
+            </div>
+            
+            <div class="rooms-container" id="rooms-container">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Загрузка номеров...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно бронирования -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Бронирование номера</h2>
+            <form id="booking-form">
+                <input type="hidden" id="booking-room-id">
+                <div class="form-group">
+                    <label for="check-in-date">Дата заезда:</label>
+                    <input type="date" id="check-in-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="check-out-date">Дата выезда:</label>
+                    <input type="date" id="check-out-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests-count">Количество гостей:</label>
+                    <input type="number" id="guests-count" min="1" required>
+                </div>
+                <button type="submit" class="submit-btn">Забронировать</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Модальное окно добавления/редактирования номера -->
+    <div id="room-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="room-modal-title">Добавить номер</h2>
+            <form id="room-form">
+                <input type="hidden" id="room-id">
+                <div class="form-group">
+                    <label for="room-title">Название:</label>
+                    <input type="text" id="room-title" required>
+                </div>
+                <div class="form-group">
+                    <label for="room-description">Описание:</label>
+                    <input type="text" id="room-description" required>
+                </div>
+                <div class="form-group">
+                    <label for="room-price">Цена за ночь:</label>
+                    <input type="number" id="room-price" min="0" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="room-capacity">Вместимость:</label>
+                    <input type="number" id="room-capacity" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="room-image">Путь к изображению:</label>
+                    <input type="text" id="room-image">
+                </div>
+                <div class="form-group">
+                    <label for="room-available">Доступность:</label>
+                    <select id="room-available">
+                        <option value="1">Доступен</option>
+                        <option value="0">Недоступен</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Сохранить</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Hotel NN</h4>
+                    <p>г. Кострома, ул. Пушкина, 3</p>
+                    <p>+7 (4942) 123-456</p>
+                    <p>info@hotelnn.ru</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Подписка на рассылку</h4>
+                    <p>Узнавайте первыми о специальных предложениях</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email">
+                        <button type="submit" class="btn">></button>
+                    </form>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="/1337/html/profile.html">Профиль</a>
+                        <a href="/1337/index.html">Главная</a>
+                        <a href="/1337/booking.html">Номера</a>
+                        <a href="/1337/services.html">Услуги</a>
+                        <a href="/1337/group-bookings.html">Групповые заезды</a>
+                        <a href="/1337/events.html">Мероприятия</a>
+                        <a href="/1337/blog.html">Блог</a>
+                        <a href="/1337/about.htm">О нас</a>
+                        <a href="/1337/contacts.html">Контакты</a>
+                        <a href="/1337/reviews.html">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="/1337/menu.js"></script>
+    <script src="/1337/index.js"></script>
+    <script src="/1337/booking.js"></script>
+</body>
+</html>

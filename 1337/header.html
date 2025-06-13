@@ -1,0 +1,55 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel NN | Кострома</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/1337/header.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1 onclick="window.location.href='/1337/index.php';">
+                    <i class="fas fa-hotel logo-icon"></i>
+                    Hotel NN
+                </h1>
+            </div>
+            
+            <nav id="main-nav">
+                <a href="/1337/pages/booking.php">Номера</a>
+                <a href="/1337/pages/services.php">Услуги</a>
+                <a href="/1337/pages/group-bookings.php">Групповые заезды</a>
+                <a href="/1337/pages/events.php">Мероприятия</a>
+                <a href="/1337/pages/blog.php">Блог</a>
+                <a href="/1337/pages/about.php">О нас</a>
+                <a href="/1337/pages/contacts.php">Контакты</a>
+            </nav>
+            
+            <div class="auth">
+                <?php if (isset($_SESSION['user_id'])) : ?>
+                    <a href="/1337/profile.php" class="avatar-link">
+                        <div class="avatar">
+                            <?php echo isset($_SESSION['username']) ? strtoupper(substr($_SESSION['username'], 0, 1)) : 'Г'; ?>
+                        </div>
+                    </a>
+                    <button onclick="logout()" class="btn">Выйти</button>
+                <?php else : ?>
+                    <a href="/1337/login.html" class="btn">Войти</a>
+                <?php endif; ?>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <script src="/1337/header.js"></script>
+</body>
+</html>

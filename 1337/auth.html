@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔑</text></svg>">
+    <link rel="stylesheet" href="/1337/index.css">
+    <link rel="stylesheet" href="/1337/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Дополнительные стили для страницы регистрации */
+        .auth-container {
+            max-width: 500px;
+            margin: 80px auto;
+            padding: 40px;
+            background: var(--white);
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+        }
+        
+        .auth-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .auth-header h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 10px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .auth-header h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: var(--accent);
+        }
+        
+        .auth-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .form-group {
+            margin-bottom: 10px;
+        }
+        
+        .auth-form input {
+            width: 100%;
+            padding: 14px 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+        
+        .auth-form input:focus {
+            border-color: var(--primary);
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(44, 62, 80, 0.1);
+        }
+        
+        .auth-form button {
+            background: var(--accent);
+            color: var(--white);
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            margin-top: 10px;
+        }
+        
+        .auth-form button:hover {
+            background: var(--accent-dark);
+        }
+        
+        .auth-footer {
+            text-align: center;
+            margin-top: 30px;
+            color: var(--gray);
+        }
+        
+        .auth-footer a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .auth-footer a:hover {
+            color: var(--accent);
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .auth-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .auth-tab {
+            padding: 12px 30px;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--gray);
+            position: relative;
+        }
+        
+        .auth-tab.active {
+            color: var(--primary);
+        }
+        
+        .auth-tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--accent);
+        }
+        
+        .char-counter {
+            text-align: right;
+            font-size: 0.8rem;
+            color: var(--gray);
+            margin-top: 5px;
+        }
+        
+        .char-counter.limit-exceeded {
+            color: #ff4444;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Блок меню -->
+    <div id="main-menu-container">
+        <button id="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i> Меню
+        </button>
+        <nav id="dropdown-menu">
+            <ul>
+                <li><a href="/1337/html/profile.html"><i class="fas fa-user"></i> Профиль</a></li>
+                <li><a href="/1337/index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="/1337/booking.html"><i class="fas fa-bed"></i> Номера</a></li>
+                <li><a href="/1337/services.html"><i class="fas fa-spa"></i> Услуги</a></li>
+                <li><a href="/1337/group-bookings.html"><i class="fas fa-users"></i> Групповые заезды</a></li>
+                <li><a href="/1337/events.html"><i class="fas fa-calendar-alt"></i> Мероприятия</a></li>
+                <li><a href="/1337/blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+                <li><a href="/1337/about.html"><i class="fas fa-info-circle"></i> О нас</a></li>
+                <li><a href="/1337/contacts.html"><i class="fas fa-map-marker-alt"></i> Контакты</a></li>
+                <li><a href="/1337/reviews.html"><i class="fas fa-comment"></i> Отзывы</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="auth-container">
+        <div class="logo">Hotel NN</div>
+        
+        <div class="auth-tabs">
+            <div class="auth-tab active">Регистрация</div>
+            <div class="auth-tab" onclick="location.href='login.html'">Вход</div>
+        </div>
+        
+        <div class="auth-header">
+            <h1>Создать аккаунт</h1>
+            <p>Заполните форму регистрации</p>
+        </div>
+        
+        <form id="register-form" class="auth-form">
+            <div class="form-group">
+                <input type="text" name="username" id="username" placeholder="Имя пользователя" maxlength="8" required>
+                <div class="char-counter" id="username-counter">0/8</div>
+            </div>
+            
+            <div class="form-group">
+                <input type="password" name="password" id="password" placeholder="Пароль" maxlength="20" required>
+                <div class="char-counter" id="password-counter">0/20</div>
+            </div>
+            
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        
+        <div class="auth-footer">
+            <p>Уже есть аккаунт? <a href="login.html">Войдите</a></p>
+        </div>
+    </div>
+    
+    <script src="/1337/auth.js"></script>
+    <script src="/1337/menu.js"></script>
+</body>
+</html>

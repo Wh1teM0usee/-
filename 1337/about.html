@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ℹ️</text></svg>">
+    <link rel="stylesheet" href="/1337/index.css">
+    <link rel="stylesheet" href="/1337/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+    
+        .char-counter {
+    text-align: right;
+    font-size: 0.8rem;
+    color: var(--gray);
+    margin-top: 5px;
+}
+
+.char-counter.limit-exceeded {
+    color: #ff4444;
+}
+
+.form-textarea {
+    min-height: 150px;
+    height: 150px;
+    resize: none; /* Запрещаем изменение размера */
+    overflow-y: auto; /* Добавляем скролл при необходимости */
+}
+    
+        .about-section {
+            padding: 60px 0;
+        }
+
+        .about-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .about-info {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+        }
+
+        .about-image {
+            height: 100%;
+            min-height: 400px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .about-title {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 30px;
+        }
+
+        .about-subtitle {
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin: 30px 0 15px 0;
+        }
+
+        .about-text {
+            color: var(--gray);
+            line-height: 1.6;
+        }
+
+        .about-form {
+            margin-top: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--gray-dark);
+        }
+
+        .form-input, .form-textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: inherit;
+            transition: var(--transition);
+        }
+
+        .form-input:focus, .form-textarea:focus {
+            border-color: var(--accent);
+            outline: none;
+        }
+
+        .form-textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        @media (max-width: 768px) {
+            .about-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Блок авторизации -->
+    <div id="auth-status">
+        <span id="auth-message">Проверка авторизации...</span>
+        <button id="logout-btn">Выйти</button>
+        <a href="login.html" id="login-btn">Войти</a>
+    </div>
+    
+    <!-- Блок меню -->
+    <div id="main-menu-container">
+        <button id="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i> Меню
+        </button>
+        <nav id="dropdown-menu">
+            <ul>
+                <li><a href="/1337/html/profile.html"><i class="fas fa-user"></i> Профиль</a></li>
+                <li><a href="/1337/index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="/1337/booking.html"><i class="fas fa-bed"></i> Номера</a></li>
+                <li><a href="/1337/services.html"><i class="fas fa-spa"></i> Услуги</a></li>
+                <li><a href="/1337/group-bookings.html"><i class="fas fa-users"></i> Групповые заезды</a></li>
+                <li><a href="/1337/events.html"><i class="fas fa-calendar-alt"></i> Мероприятия</a></li>
+                <li><a href="/1337/blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+                <li><a href="/1337/about.html"><i class="fas fa-info-circle"></i> О нас</a></li>
+                <li><a href="/1337/contacts.html"><i class="fas fa-map-marker-alt"></i> Контакты</a></li>
+                <li><a href="/1337/reviews.html"><i class="fas fa-comment"></i> Отзывы</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Основной контент -->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>О нас</h2>
+                <p>Узнайте больше о нас и нашей истории</p>
+            </div>
+            
+            <div class="about-container">
+                <div class="about-info">
+                    <h3 class="about-title">Наша история</h3>
+                    <p class="about-text">Мы рады приветствовать вас в нашем отеле! Наш отель был основан в 1995 году и с тех пор мы стремимся предоставлять лучший сервис для наших гостей.</p>
+                    <p class="about-text">Мы гордимся нашим персоналом, который всегда готов помочь вам и сделать ваше пребывание максимально комфортным.</p>
+                    
+                    <h4 class="about-subtitle">Обратная связь</h4>
+                    <form class="about-form" id="feedback-form">
+<div class="form-group">
+    <label for="name" class="form-label">Ваше имя</label>
+    <input type="text" id="name" class="form-input" maxlength="15" required>
+    <div class="char-counter" id="name-counter">0/15</div>
+</div>
+
+<div class="form-group">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" id="email" class="form-input" maxlength="20" required>
+    <div class="char-counter" id="email-counter">0/20</div>
+</div>
+
+<div class="form-group">
+    <label for="message" class="form-label">Сообщение</label>
+    <textarea id="message" class="form-textarea" maxlength="150" required style="resize: none; height: 150px;"></textarea>
+    <div class="char-counter" id="message-counter">0/150</div>
+</div>
+                        
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+                
+                <div class="about-image">
+                    <img src="/1337/images/about.jpg" alt="О нас" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Hotel NN</h4>
+                    <p>г. Кострома, ул. Пушкина, 3</p>
+                    <p>+7 (4942) 123-456</p>
+                    <p>info@hotelnn.ru</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Подписка на рассылку</h4>
+                    <p>Узнавайте первыми о специальных предложениях</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email">
+                        <button type="submit" class="btn">></button>
+                    </form>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="/1337/html/profile.html">Профиль</a>
+                        <a href="/1337/index.html">Главная</a>
+                        <a href="/1337/booking.html">Номера</a>
+                        <a href="/1337/services.html">Услуги</a>
+                        <a href="/1337/group-bookings.html">Групповые заезды</a>
+                        <a href="/1337/events.html">Мероприятия</a>
+                        <a href="/1337/blog.html">Блог</a>
+                        <a href="/1337/about.htm">О нас</a>
+                        <a href="/1337/contacts.html">Контакты</a>
+                        <a href="/1337/reviews.html">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="/1337/menu.js"></script>
+    <script src="/1337/index.js"></script>
+    <script src="/1337/about.js"></script>
+</body>
+</html>

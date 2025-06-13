@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👤</text></svg>">
+    <link rel="stylesheet" href="/1337/index.css">
+    <link rel="stylesheet" href="/1337/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Основные стили админ-панели */
+        .admin-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .admin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .admin-title {
+            font-size: 24px;
+            color: var(--primary);
+        }
+        
+        .admin-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .admin-btn {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .admin-btn.primary {
+            background-color: var(--accent);
+            color: white;
+        }
+        
+        .admin-btn.primary:hover {
+            background-color: var(--accent-dark);
+        }
+        
+        .admin-btn.secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+        
+        .admin-btn.secondary:hover {
+            background-color: #5a6268;
+        }
+        
+        .admin-btn.danger {
+            background-color: #dc3545;
+            color: white;
+        }
+        
+        .admin-btn.danger:hover {
+            background-color: #c82333;
+        }
+        
+        /* Таблица пользователей */
+        .users-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .users-table th, .users-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .users-table th {
+            background-color: var(--primary);
+            color: white;
+            font-weight: 500;
+        }
+        
+        .users-table tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .users-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .action-btns {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .action-btn {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .action-btn.view {
+            background-color: #17a2b8;
+            color: white;
+        }
+        
+        .action-btn.edit {
+            background-color: #ffc107;
+            color: #212529;
+        }
+        
+        .action-btn.delete {
+            background-color: #dc3545;
+            color: white;
+        }
+        
+        .action-btn:hover {
+            opacity: 0.8;
+        }
+        
+        /* Модальные окна */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            overflow: auto;
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 25px;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        
+        .close-modal {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #aaa;
+            cursor: pointer;
+        }
+        
+        .close-modal:hover {
+            color: #333;
+        }
+        
+        .modal-title {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .form-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .avatar-preview {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #eee;
+        }
+        
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+        }
+        
+        .loading-spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--accent);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .status-active {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .status-inactive {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .users-table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            .admin-actions {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .action-btns {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .action-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Блок авторизации -->
+    <div id="auth-status">
+        <span id="auth-message">Проверка авторизации...</span>
+        <button id="logout-btn">Выйти</button>
+        <a href="login.html" id="login-btn">Войти</a>
+    </div>
+    
+    <!-- Блок меню -->
+    <div id="main-menu-container">
+        <button id="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i> Меню
+        </button>
+        <nav id="dropdown-menu">
+            <ul>
+                <li><a href="/1337/html/profile.html"><i class="fas fa-user"></i> Профиль</a></li>
+                <li><a href="/1337/index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="/1337/booking.html"><i class="fas fa-bed"></i> Номера</a></li>
+                <li><a href="/1337/services.html"><i class="fas fa-spa"></i> Услуги</a></li>
+                <li><a href="/1337/group-bookings.html"><i class="fas fa-users"></i> Групповые заезды</a></li>
+                <li><a href="/1337/events.html"><i class="fas fa-calendar-alt"></i> Мероприятия</a></li>
+                <li><a href="/1337/blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+                <li><a href="/1337/about.html"><i class="fas fa-info-circle"></i> О нас</a></li>
+                <li><a href="/1337/contacts.html"><i class="fas fa-map-marker-alt"></i> Контакты</a></li>
+                <li><a href="/1337/reviews.html"><i class="fas fa-comment"></i> Отзывы</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Основной контент -->
+    <div class="admin-container">
+        <div class="admin-header">
+            <h1 class="admin-title">
+                <i class="fas fa-user-shield"></i> Админ-панель
+            </h1>
+            <div class="admin-actions">
+                <button class="admin-btn primary" id="create-user-btn">
+                    <i class="fas fa-user-plus"></i> Создать пользователя
+                </button>
+                <button class="admin-btn secondary" id="refresh-users-btn">
+                    <i class="fas fa-sync-alt"></i> Обновить
+                </button>
+            </div>
+        </div>
+        
+        <div id="users-container">
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <p>Загрузка списка пользователей...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для создания/редактирования пользователя -->
+    <div id="user-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title" id="modal-title">Создание пользователя</h3>
+            <form id="user-form">
+                <input type="hidden" id="modal-user-id">
+                
+                <div class="form-group">
+                    <img src="/1337/images/default-avatar.png" id="avatar-preview" class="avatar-preview">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-username">Логин *</label>
+                    <input type="text" id="modal-username" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-email">Email *</label>
+                    <input type="email" id="modal-email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-first-name">Имя</label>
+                    <input type="text" id="modal-first-name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-last-name">Фамилия</label>
+                    <input type="text" id="modal-last-name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-phone">Телефон</label>
+                    <input type="tel" id="modal-phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-birth-date">Дата рождения</label>
+                    <input type="date" id="modal-birth-date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-role">Роль *</label>
+                    <select id="modal-role" required>
+                        <option value="user">Пользователь</option>
+                        <option value="admin">Администратор</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-password">Пароль (оставьте пустым для автогенерации)</label>
+                    <input type="password" id="modal-password">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modal-avatar">Аватар</label>
+                    <input type="file" id="modal-avatar" accept="image/*">
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" class="admin-btn secondary" id="cancel-user-btn">Отмена</button>
+                    <button type="submit" class="admin-btn primary">Сохранить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Модальное окно для просмотра пользователя -->
+    <div id="view-user-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title">Профиль пользователя</h3>
+            <div id="user-view-content"></div>
+            <div class="form-actions">
+                <button class="admin-btn primary" id="edit-viewed-user-btn">
+                    <i class="fas fa-edit"></i> Редактировать
+                </button>
+                <button class="admin-btn danger" id="delete-viewed-user-btn">
+                    <i class="fas fa-trash"></i> Удалить
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Hotel NN</h4>
+                    <p>г. Кострома, ул. Пушкина, 3</p>
+                    <p>+7 (4942) 123-456</p>
+                    <p>info@hotelnn.ru</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Подписка на рассылку</h4>
+                    <p>Узнавайте первыми о специальных предложениях</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email">
+                        <button type="submit" class="btn">></button>
+                    </form>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="/1337/html/profile.html">Профиль</a>
+                        <a href="/1337/index.html">Главная</a>
+                        <a href="/1337/booking.html">Номера</a>
+                        <a href="/1337/services.html">Услуги</a>
+                        <a href="/1337/group-bookings.html">Групповые заезды</a>
+                        <a href="/1337/events.html">Мероприятия</a>
+                        <a href="/1337/blog.html">Блог</a>
+                        <a href="/1337/about.htm">О нас</a>
+                        <a href="/1337/contacts.html">Контакты</a>
+                        <a href="/1337/reviews.html">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="/1337/menu.js"></script>
+    <script src="/1337/index.js"></script>
+    <script src="/1337/admin.js"></script>
+</body>
+</html>

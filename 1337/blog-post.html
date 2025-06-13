@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статья | Блог Hotel NN</title>
+    <link rel="stylesheet" href="/1337/index.css">
+    <link rel="stylesheet" href="/1337/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .blog-post-section {
+            padding: 100px 0 60px;
+        }
+        
+        .post-hero {
+            position: relative;
+            height: 400px;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            box-shadow: var(--shadow);
+        }
+        
+        .post-hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .post-hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .post-hero-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .post-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--white);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+        }
+        
+        .post-date {
+            color: var(--accent);
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        
+        .post-content {
+            color: var(--gray-dark);
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .post-content p {
+            margin-bottom: 20px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .back-link:hover {
+            color: var(--primary);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 100px 0;
+        }
+        
+        .loading-spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--accent);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .post-hero {
+                height: 300px;
+            }
+            
+            .post-hero-title {
+                font-size: 2rem;
+            }
+            
+            .post-content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Блок авторизации -->
+    <div id="auth-status">
+        <span id="auth-message">Проверка авторизации...</span>
+        <button id="logout-btn">Выйти</button>
+        <a href="login.html" id="login-btn">Войти</a>
+    </div>
+    
+    <!-- Блок меню -->
+    <div id="main-menu-container">
+        <button id="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i> Меню
+        </button>
+        <nav id="dropdown-menu">
+            <ul>
+                <li><a href="/1337/html/profile.html"><i class="fas fa-user"></i> Профиль</a></li>
+                <li><a href="/1337/index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="/1337/booking.html"><i class="fas fa-bed"></i> Номера</a></li>
+                <li><a href="/1337/services.html"><i class="fas fa-spa"></i> Услуги</a></li>
+                <li><a href="/1337/group-bookings.html"><i class="fas fa-users"></i> Групповые заезды</a></li>
+                <li><a href="/1337/events.html"><i class="fas fa-calendar-alt"></i> Мероприятия</a></li>
+                <li><a href="/1337/blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+                <li><a href="/1337/about.html"><i class="fas fa-info-circle"></i> О нас</a></li>
+                <li><a href="/1337/contacts.html"><i class="fas fa-map-marker-alt"></i> Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Основной контент -->
+    <section class="blog-post-section">
+        <div class="container">
+            <div id="post-hero" class="post-hero">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                </div>
+            </div>
+            
+            <div class="post-container" id="post-container">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Загрузка статьи...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Hotel NN</h4>
+                    <p>г. Кострома, ул. Пушкина, 3</p>
+                    <p>+7 (4942) 123-456</p>
+                    <p>info@hotelnn.ru</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Подписка на рассылку</h4>
+                    <p>Узнавайте первыми о специальных предложениях</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email">
+                        <button type="submit" class="btn">></button>
+                    </form>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="/1337/html/profile.html">Профиль</a>
+                        <a href="/1337/index.html">Главная</a>
+                        <a href="/1337/booking.html">Номера</a>
+                        <a href="/1337/services.html">Услуги</a>
+                        <a href="/1337/group-bookings.html">Групповые заезды</a>
+                        <a href="/1337/events.html">Мероприятия</a>
+                        <a href="/1337/blog.html">Блог</a>
+                        <a href="/1337/about.html">О нас</a>
+                        <a href="/1337/contacts.html">Контакты</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="/1337/menu.js"></script>
+    <script src="/1337/index.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        console.group('[BlogPost] Инициализация страницы статьи');
+        
+        // Конфигурация
+        const config = {
+            apiUrl: 'http://p95364dp.beget.tech/1337/blog_api.php?action=get_post&id=',
+            defaultImage: '/1337/images/blog-default.jpg',
+            blogPageUrl: '/1337/blog.html'
+        };
+        
+        // Элементы DOM
+        const postHero = document.getElementById('post-hero');
+        const postContainer = document.getElementById('post-container');
+        
+        // Получаем ID статьи из URL
+        const postId = getPostIdFromUrl();
+        if (!postId) return;
+        
+        // Загружаем статью
+        loadPost(postId);
+        
+        // Функции ===================================================
+        
+        function getPostIdFromUrl() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const postId = urlParams.get('id');
+            
+            console.log('[BlogPost] ID статьи из URL:', postId);
+            
+            if (!postId || !/^\d+$/.test(postId)) {
+                const errorMsg = 'Неверный ID статьи в URL';
+                console.error('[BlogPost]', errorMsg);
+                showError(errorMsg);
+                return null;
+            }
+            
+            return postId;
+        }
+        
+        async function loadPost(postId) {
+            console.log('[BlogPost] Загрузка статьи ID:', postId);
+            
+            showLoading();
+            
+            try {
+                const response = await fetchPostData(postId);
+                console.log('[BlogPost] Данные статьи:', response);
+                
+                if (!validatePostData(response.data)) {
+                    throw new Error('Получены неполные данные статьи');
+                }
+                
+                renderPost(response.data);
+            } catch (error) {
+                console.error('[BlogPost] Ошибка:', error);
+                showError(`Ошибка загрузки: ${error.message}`);
+            }
+        }
+        
+        async function fetchPostData(postId) {
+            const url = `${config.apiUrl}${postId}`;
+            console.log('[BlogPost] Запрос к API:', url);
+            
+            const response = await fetch(url, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                credentials: 'include'
+            });
+            
+            console.log('[BlogPost] Статус ответа:', response.status);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            
+            if (!data.success) {
+                throw new Error(data.message || 'Ошибка при получении данных');
+            }
+            
+            return data;
+        }
+        
+        function validatePostData(post) {
+            if (!post) return false;
+            if (!post.title || !post.content) return false;
+            return true;
+        }
+        
+        function renderPost(post) {
+            console.log('[BlogPost] Рендеринг статьи:', post);
+            
+            // Используем full_content если он есть, иначе content
+            const postContent = post.full_content || post.content;
+            
+            const imageUrl = post.image_path 
+                ? post.image_path.replace(/[!?]/g, m => m === '!' ? '1' : '2')
+                : config.defaultImage;
+            
+            // Рендерим герой-секцию с изображением
+            postHero.innerHTML = `
+                <img src="${imageUrl}" alt="${escapeHtml(post.title)}">
+                <div class="post-hero-overlay">
+                    <div>
+                        <h1 class="post-hero-title">${escapeHtml(post.title)}</h1>
+                    </div>
+                </div>
+            `;
+            
+            // Рендерим контент статьи
+            postContainer.innerHTML = `
+                <div class="post-date">${formatDate(post.created_at)}</div>
+                
+                <div class="post-content">
+                    ${postContent.replace(/\n/g, '<br><br>')}
+                </div>
+                
+                <a href="${config.blogPageUrl}" class="back-link">
+                    ← Вернуться к списку статей
+                </a>
+            `;
+            
+            console.log('[BlogPost] Статья успешно отображена');
+        }
+        
+        function formatDate(dateString) {
+            try {
+                if (!dateString) return 'Дата не указана';
+                
+                const options = { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                };
+                
+                const date = new Date(dateString);
+                return date.toLocaleDateString('ru-RU', options);
+            } catch (e) {
+                console.error('[BlogPost] Ошибка форматирования даты:', e);
+                return dateString || 'Дата не указана';
+            }
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function showLoading() {
+            postContainer.innerHTML = `
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Загрузка статьи...</p>
+                </div>
+            `;
+        }
+        
+        function showError(message) {
+            postContainer.innerHTML = `
+                <div class="error-message">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Ошибка</h3>
+                    <p>${message}</p>
+                    <a href="${config.blogPageUrl}" class="btn">
+                        Вернуться в блог
+                    </a>
+                </div>
+            `;
+        }
+        
+        console.groupEnd();
+    });
+    </script>
+</body>
+</html>

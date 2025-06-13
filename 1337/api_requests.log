@@ -1,0 +1,4353 @@
+[2025-06-13 19:03:14] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:03:19] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 235
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+    [action] => update_user
+    [id] => 1
+    [first_name] => Огузоккяч
+    [last_name] => Огузовикович
+    [email] => CBO@1488.zov
+    [phone] => +7960345912
+    [birth_date] => 2009-10-02
+)
+
+GET: Array
+(
+)
+
+INPUT: action=update_user&id=1&first_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%BA%D0%BA%D1%8F%D1%87&last_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D1%87&email=CBO%401488.zov&phone=%2B7960345912&birth_date=2009-10-02
+
+[2025-06-13 19:03:21] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:05:09] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:05:27] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+    [Cookie] => PHPSESSID=77e1b2792a51b676edd60f9f26ab31f1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:05:28] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+    [Cookie] => PHPSESSID=77e1b2792a51b676edd60f9f26ab31f1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:05:29] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+    [Cookie] => PHPSESSID=77e1b2792a51b676edd60f9f26ab31f1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:06:00] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:06:55] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:07:20] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:07:48] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:08:33] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:09:17] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:10:52] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:10:56] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:12:10] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+    [Cookie] => PHPSESSID=75b81e505f59a24db08492149ae5e167
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:12:40] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:13:13] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 241
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+    [action] => update_user
+    [id] => 1
+    [first_name] => Огузоккяч
+    [last_name] => Огузовиковичч
+    [email] => CBO@1488.zov
+    [phone] => +7960345912
+    [birth_date] => 2009-10-02
+)
+
+GET: Array
+(
+)
+
+INPUT: action=update_user&id=1&first_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%BA%D0%BA%D1%8F%D1%87&last_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D1%87%D1%87&email=CBO%401488.zov&phone=%2B7960345912&birth_date=2009-10-02
+
+[2025-06-13 19:13:15] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:13:18] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 235
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+    [action] => update_user
+    [id] => 1
+    [first_name] => Огузоккяч
+    [last_name] => Огузовикович
+    [email] => CBO@1488.zov
+    [phone] => +7960345912
+    [birth_date] => 2009-10-02
+)
+
+GET: Array
+(
+)
+
+INPUT: action=update_user&id=1&first_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%BA%D0%BA%D1%8F%D1%87&last_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D1%87&email=CBO%401488.zov&phone=%2B7960345912&birth_date=2009-10-02
+
+[2025-06-13 19:13:20] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:13:50] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:16:48] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:16:52] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:20:25] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:20:50] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:21:17] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:21:19] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:23:57] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:24:16] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:24:24] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:34:15] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:34:26] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:36:32] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:36:32] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:36:33] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:36:34] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:36:38] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:36:38] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:37:01] GET /1337/users_api.php?action=get_user&id=30
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 30
+)
+
+INPUT: 
+
+[2025-06-13 19:37:04] GET /1337/users_api.php?action=get_user&id=30
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 30
+)
+
+INPUT: 
+
+[2025-06-13 19:37:08] GET /1337/users_api.php?action=get_user&id=30
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 30
+)
+
+INPUT: 
+
+[2025-06-13 19:37:12] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0
+    [DNT] => 1
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+    [Cookie] => PHPSESSID=4107bde70a51c9ffb4e0a94091126597
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:37:16] GET /1337/users_api.php?action=delete_user&id=21
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => delete_user
+    [id] => 21
+)
+
+INPUT: 
+
+[2025-06-13 19:37:16] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:37:18] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:37:18] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:37:20] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:37:38] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:37:38] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:37:46] GET /1337/users_api.php?action=get_user&id=20
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 20
+)
+
+INPUT: 
+
+[2025-06-13 19:37:48] GET /1337/users_api.php?action=get_user&id=20
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 20
+)
+
+INPUT: 
+
+[2025-06-13 19:37:49] GET /1337/users_api.php?action=get_user&id=20
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 20
+)
+
+INPUT: 
+
+[2025-06-13 19:37:59] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 921
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryH1aH38ANyGpLC7nE
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+    [action] => update_user
+    [id] => 20
+    [username] => 099
+    [email] => sdjasjd@mail.ru
+    [first_name] => 
+    [last_name] => 
+    [phone] => 
+    [birth_date] => 
+    [role] => user
+)
+
+GET: Array
+(
+)
+
+INPUT: 
+
+[2025-06-13 19:37:59] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:38:28] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:38:28] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=8656c9c11be48014a44043c2b4bc8b99
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:38:54] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:38:54] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:40:46] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:40:47] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:40:53] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:40:55] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:40:55] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:42:08] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:42:35] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7cd4c845373713a1644d118288f827ab
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:49:15] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:49:16] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:49:29] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 254707
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryBThNaMy6YlisPhEn
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+    [action] => update_avatar
+    [id] => 1
+)
+
+GET: Array
+(
+)
+
+INPUT: 
+
+[2025-06-13 19:49:33] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:49:39] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:49:39] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:49:53] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 241
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+    [action] => update_user
+    [id] => 1
+    [first_name] => Огузоккяч
+    [last_name] => Огузовиковичч
+    [email] => CBO@1488.zov
+    [phone] => +7960345912
+    [birth_date] => 2009-10-02
+)
+
+GET: Array
+(
+)
+
+INPUT: action=update_user&id=1&first_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%BA%D0%BA%D1%8F%D1%87&last_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D1%87%D1%87&email=CBO%401488.zov&phone=%2B7960345912&birth_date=2009-10-02
+
+[2025-06-13 19:49:55] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:49:55] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:49:58] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:49:58] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:50:59] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 235
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+    [action] => update_user
+    [id] => 1
+    [first_name] => Огузоккяч
+    [last_name] => Огузовикович
+    [email] => CBO@1488.zov
+    [phone] => +7960345912
+    [birth_date] => 2009-10-02
+)
+
+GET: Array
+(
+)
+
+INPUT: action=update_user&id=1&first_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%BA%D0%BA%D1%8F%D1%87&last_name=%D0%9E%D0%B3%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D1%87&email=CBO%401488.zov&phone=%2B7960345912&birth_date=2009-10-02
+
+[2025-06-13 19:51:01] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:51:01] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:51:19] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:51:19] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:57:32] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:57:33] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:57:37] GET /1337/users_api.php?action=get_user&id=30
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 30
+)
+
+INPUT: 
+
+[2025-06-13 19:57:39] GET /1337/users_api.php?action=get_user&id=30
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 30
+)
+
+INPUT: 
+
+[2025-06-13 19:58:06] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 255518
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryAq0ZPmYxHmdvbQeT
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+    [action] => update_user
+    [id] => 30
+    [username] => zxczxczxczxczxc
+    [email] => sdjasjd@mail.ru
+    [first_name] => sda
+    [last_name] => sad
+    [phone] => +4923942934234242
+    [birth_date] => 
+    [role] => user
+    [password] => 
+)
+
+GET: Array
+(
+)
+
+INPUT: 
+
+[2025-06-13 19:58:06] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:58:23] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:58:23] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:58:25] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 24
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+    [action] => delete_user
+    [id] => 22
+)
+
+GET: Array
+(
+)
+
+INPUT: action=delete_user&id=22
+
+[2025-06-13 19:58:25] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:58:27] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:58:27] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:58:30] GET /1337/users_api.php?action=get_user&id=30
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 30
+)
+
+INPUT: 
+
+[2025-06-13 19:58:39] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:58:39] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 19:58:52] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 19:58:52] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:03:26] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 254707
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundary78xUIobkqoxYpt09
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+    [action] => update_avatar
+    [id] => 1
+)
+
+GET: Array
+(
+)
+
+INPUT: 
+
+[2025-06-13 20:03:46] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:03:54] GET /1337/users_api.php?action=get_user&id=26
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 26
+)
+
+INPUT: 
+
+[2025-06-13 20:04:17] POST /1337/users_api.php
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Content-Length] => 255510
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryw3zZ8h6YATLIlubj
+    [Accept] => */*
+    [Origin] => http://p95364dp.beget.tech
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+    [action] => update_user
+    [id] => 26
+    [username] => h
+    [email] => sdjasjd@mail.ru
+    [first_name] => 
+    [last_name] => 
+    [phone] => +4923942934234242
+    [birth_date] => 2025-06-13
+    [role] => admin
+    [password] => h
+)
+
+GET: Array
+(
+)
+
+INPUT: 
+
+[2025-06-13 20:04:17] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=e29b09ef398e4fa9f5962736eb5947f3
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:04:25] GET /1337/users_api.php?action=get_user&id=26
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=229e48f71969c5971f82822c72f1a21c
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 26
+)
+
+INPUT: 
+
+[2025-06-13 20:04:44] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:04:44] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:10:18] GET /1337/users_api.php?action=get_user&id=26
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=229e48f71969c5971f82822c72f1a21c
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 26
+)
+
+INPUT: 
+
+[2025-06-13 20:11:56] GET /1337/users_api.php?action=get_user&id=26
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=229e48f71969c5971f82822c72f1a21c
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 26
+)
+
+INPUT: 
+
+[2025-06-13 20:17:24] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:17:25] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:25:28] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:25:28] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:25:28] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:26:21] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:26:22] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:26:23] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:26:23] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:27:13] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:27:13] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:31:35] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:31:35] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:31:36] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:31:37] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:31:38] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:31:38] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=38d05717a8e77d106d62164861d5361f
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:31:47] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=4b5ee4bb02eed674ce43e430c73f4418
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:31:48] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=4b5ee4bb02eed674ce43e430c73f4418
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:34:44] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:34:44] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:36:40] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:36:40] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:37:03] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:37:03] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:37:27] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:37:31] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:37:31] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:37:51] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:37:57] GET /1337/users_api.php?action=get_user&id=27
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 27
+)
+
+INPUT: 
+
+[2025-06-13 20:38:02] GET /1337/users_api.php?action=get_user&id=25
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 25
+)
+
+INPUT: 
+
+[2025-06-13 20:38:42] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:38:48] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:38:49] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:40:12] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:40:12] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:41:57] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:41:57] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 95.26.59.234
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=7980decbb988be7e548085425f3d86a1
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:42:24] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=4b5ee4bb02eed674ce43e430c73f4418
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:42:24] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=4b5ee4bb02eed674ce43e430c73f4418
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
+[2025-06-13 20:45:59] GET /1337/users_api.php?action=get_user&id=1
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=4b5ee4bb02eed674ce43e430c73f4418
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_user
+    [id] => 1
+)
+
+INPUT: 
+
+[2025-06-13 20:46:00] GET /1337/users_api.php?action=get_users
+Headers: Array
+(
+    [Host] => p95364dp.beget.tech
+    [X-Server-Addr] => 185.50.25.45
+    [X-Forwarded-Proto] => http
+    [X-Real-IP] => 194.58.173.57
+    [Connection] => close
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [Accept] => */*
+    [Referer] => http://p95364dp.beget.tech/1337/profile.html
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => ru-RU,ru;q=0.9
+    [Cookie] => PHPSESSID=4b5ee4bb02eed674ce43e430c73f4418
+)
+
+POST: Array
+(
+)
+
+GET: Array
+(
+    [action] => get_users
+)
+
+INPUT: 
+
