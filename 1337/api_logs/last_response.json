@@ -1,0 +1,15 @@
+{
+    "request_id": "680d1949a3fc3",
+    "success": true,
+    "message": "Регистрация успешна",
+    "data": {
+        "user_id": "19",
+        "username": "SDFF"
+    },
+    "debug": {
+        "timestamp": "2025-04-26 20:35:05",
+        "memory": "2 MB",
+        "execution_time": "0.1222 sec",
+        "session_id": "ee86e9b5c8921f080ca0b816ef5c9ddc"
+    }
+}

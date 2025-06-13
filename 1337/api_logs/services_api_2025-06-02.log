@@ -1,0 +1,204 @@
+{
+    "timestamp": "2025-06-02 15:17:39",
+    "method": "GET",
+    "uri": "\/1337\/services_api.php?action=get_services&_=1748866702373",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "194.58.188.104",
+        "Connection": "close",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36 Edg\/136.0.0.0",
+        "Accept": "application\/json",
+        "Content-Type": "application\/json",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/services.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru",
+        "Cookie": "PHPSESSID=4ec67c265751f2e0027a8dd4ad6d376f"
+    },
+    "input": "",
+    "data": {
+        "action": "get_services",
+        "input": {
+            "action": "get_services",
+            "_": "1748866702373",
+            "PHPSESSID": "4ec67c265751f2e0027a8dd4ad6d376f"
+        }
+    }
+}
+{
+    "timestamp": "2025-06-02 15:18:34",
+    "method": "GET",
+    "uri": "\/1337\/services_api.php?action=get_services&_=1748866756694",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "194.58.188.104",
+        "Connection": "close",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36 Edg\/136.0.0.0",
+        "Accept": "application\/json",
+        "Content-Type": "application\/json",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/services.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru",
+        "Cookie": "PHPSESSID=4ec67c265751f2e0027a8dd4ad6d376f"
+    },
+    "input": "",
+    "data": {
+        "action": "get_services",
+        "input": {
+            "action": "get_services",
+            "_": "1748866756694",
+            "PHPSESSID": "4ec67c265751f2e0027a8dd4ad6d376f"
+        }
+    }
+}
+{
+    "timestamp": "2025-06-02 15:18:45",
+    "method": "POST",
+    "uri": "\/1337\/services_api.php?action=book_service",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "194.58.188.104",
+        "Connection": "close",
+        "Content-Length": "53",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36 Edg\/136.0.0.0",
+        "Content-Type": "application\/json",
+        "Accept": "*\/*",
+        "Origin": "http:\/\/p95364dp.beget.tech",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/services.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru",
+        "Cookie": "PHPSESSID=4ec67c265751f2e0027a8dd4ad6d376f"
+    },
+    "input": "{\"service_id\":\"3\",\"service_title\":\"\u0422\u0440\u0430\u043d\u0441\u0444\u0435\u0440\"}",
+    "data": {
+        "action": "book_service",
+        "input": {
+            "service_id": "3",
+            "service_title": "\u0422\u0440\u0430\u043d\u0441\u0444\u0435\u0440"
+        }
+    }
+}
+{
+    "timestamp": "2025-06-02 15:18:48",
+    "method": "POST",
+    "uri": "\/1337\/services_api.php?action=book_service",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "194.58.188.104",
+        "Connection": "close",
+        "Content-Length": "51",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36 Edg\/136.0.0.0",
+        "Content-Type": "application\/json",
+        "Accept": "*\/*",
+        "Origin": "http:\/\/p95364dp.beget.tech",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/services.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru",
+        "Cookie": "PHPSESSID=4ec67c265751f2e0027a8dd4ad6d376f"
+    },
+    "input": "{\"service_id\":\"2\",\"service_title\":\"\u0417\u0430\u0432\u0442\u0440\u0430\u043a\"}",
+    "data": {
+        "action": "book_service",
+        "input": {
+            "service_id": "2",
+            "service_title": "\u0417\u0430\u0432\u0442\u0440\u0430\u043a"
+        }
+    }
+}
+{
+    "timestamp": "2025-06-02 15:18:52",
+    "method": "GET",
+    "uri": "\/1337\/services_api.php?action=get_services&_=1748866775362",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "194.58.188.104",
+        "Connection": "close",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36 Edg\/136.0.0.0",
+        "Accept": "application\/json",
+        "Content-Type": "application\/json",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/services.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru",
+        "Cookie": "PHPSESSID=4ec67c265751f2e0027a8dd4ad6d376f"
+    },
+    "input": "",
+    "data": {
+        "action": "get_services",
+        "input": {
+            "action": "get_services",
+            "_": "1748866775362",
+            "PHPSESSID": "4ec67c265751f2e0027a8dd4ad6d376f"
+        }
+    }
+}
+{
+    "timestamp": "2025-06-02 15:18:55",
+    "method": "POST",
+    "uri": "\/1337\/services_api.php?action=book_service",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "194.58.188.104",
+        "Connection": "close",
+        "Content-Length": "63",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36 Edg\/136.0.0.0",
+        "Content-Type": "application\/json",
+        "Accept": "*\/*",
+        "Origin": "http:\/\/p95364dp.beget.tech",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/services.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru",
+        "Cookie": "PHPSESSID=4ec67c265751f2e0027a8dd4ad6d376f"
+    },
+    "input": "{\"service_id\":\"1\",\"service_title\":\"\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439 Wi-Fi\"}",
+    "data": {
+        "action": "book_service",
+        "input": {
+            "service_id": "1",
+            "service_title": "\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439 Wi-Fi"
+        }
+    }
+}
+{
+    "timestamp": "2025-06-02 15:19:04",
+    "method": "POST",
+    "uri": "\/1337\/services_api.php?action=book_service",
+    "headers": {
+        "Host": "p95364dp.beget.tech",
+        "X-Server-Addr": "185.50.25.45",
+        "X-Forwarded-Proto": "http",
+        "X-Real-IP": "194.58.188.104",
+        "Connection": "close",
+        "Content-Length": "51",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36 Edg\/136.0.0.0",
+        "Content-Type": "application\/json",
+        "Accept": "*\/*",
+        "Origin": "http:\/\/p95364dp.beget.tech",
+        "Referer": "http:\/\/p95364dp.beget.tech\/1337\/services.html",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "ru",
+        "Cookie": "PHPSESSID=4ec67c265751f2e0027a8dd4ad6d376f"
+    },
+    "input": "{\"service_id\":\"2\",\"service_title\":\"\u0417\u0430\u0432\u0442\u0440\u0430\u043a\"}",
+    "data": {
+        "action": "book_service",
+        "input": {
+            "service_id": "2",
+            "service_title": "\u0417\u0430\u0432\u0442\u0440\u0430\u043a"
+        }
+    }
+}
